@@ -3,12 +3,17 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Loria
+middle_name: 
+last_name: Sun
+email: loriasun2020@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A Beijing native turned international adventurer, I began my high school journey in the US and am now 
+  graduating from UM with a major in CS and a side of minor. Next up: UIUC for my master's in CS! 
+  Passionate about cooking, fitness, and travel, I enjoy exploring new flavors and places with my trusty 
+  French Bulldog. A proud Netflix aficionado, I'm seeking a summer SDE internship that combines my 
+  tech-savvy with a dash of fun. Let's create code that makes an impact!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -29,13 +34,13 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 
 # code highlighter theme
 highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: monokai    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
-repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: graywhite       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: radical           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
@@ -71,11 +76,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: loriasun # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: Loria Sun # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -105,6 +110,12 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
+  Eager to connect or collaborate? I'd love to hear from you! Feel free to reach out via any of the channels below, and I'll be sure to respond as soon as I can.
+  Email: loriasun2020@gmail.com
+  LinkedIn: https://www.linkedin.com/in/loria-sun-882527230/
+  GitHub: github.com/Loriasun
+
+
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
