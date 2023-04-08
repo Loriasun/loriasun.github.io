@@ -38,7 +38,7 @@ highlight_theme_dark: monokai    # https://github.com/jwarby/jekyll-pygments-the
 
 # repo color theme
 repo_theme_light: graywhite       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: radical           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: merko           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: false
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
