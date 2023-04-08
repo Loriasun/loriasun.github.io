@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -14,9 +14,10 @@ profile:
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+ A Beijing native turned international adventurer, I began my high school journey in the US and am now graduating from UM with a major in CS and a side of minor. Next up: UIUC for my master's in CS! Passionate about cooking, fitness, and travel, I enjoy exploring new flavors and places with my trusty French Bulldog. A proud Netflix aficionado, I'm seeking a summer SDE internship that combines my tech-savvy with a dash of fun. Let's create code that makes an impact!
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
