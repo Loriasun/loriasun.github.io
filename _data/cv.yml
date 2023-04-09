@@ -47,10 +47,6 @@
 
     - title: Student Research Assistant
       institution: University of Michigan, Ann Arbor, MI
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 2022
       description:
         - Developed a full-stack search engine using Python3, HTML, CSS, and JavaScript for the student learning portal.
