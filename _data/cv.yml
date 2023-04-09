@@ -2,96 +2,98 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Loria Sun
     - name: Date of Birth
-      value: 14th March 1879
+      value: 9th February 2001
     - name: Languages
-      value: English, German
+      value: English, mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+  - title: Master
+      institution: UNIVERSITY OF Illinois Urbana - Champaign, Urbana, IL 
+      year: 2024
+    - title: Bachelor's of Science
+      institution: University of Michigan Ann Arbor, Ann Arbor, MI
+      year: 2020-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Major: Computer Science
+        - Minor: Mathemactics
+        - GPA: 3.8/4.0
+        - title: Related Course
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Web Design, Development and Accessibility, Database Management Systems, Introduction to Theoretical Statistics.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer Intern
+      institution: Sungallon, China 
+      year: May 2022 - Aug. 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Developed a Full Stack data dashboard to improve the company's investment in TPE Material production.
+        - Implemented Real-Time data visualization using React-uplot for 500+ workers and managers on the assembly line.
+        - Streamlined data retrieval processes  through indexing and normalization, resulting in a 30% speed increase.
+        - Optimized internal systems, including payroll, attendance, and personal information management, leading to efficient management of over 1000 employees and a 13% reduction in employment expenses.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    - title: Student Programmer II
+      institution: University of Michigan, Ann Arbor, MI
+      year: 2022
+      description:
+        - Developed new website features such as dropdown menus and interactive UIs to enhance the user experience for a biophysics research project website with over 1 million page visits using React.js and JavaScript.
+        - Created Docker images for multiple research projects, written in React.js, JavaScript, and Ruby, to ease deployment and eliminate dependency concerns.
+        - Deployed websites on multiple cloud platforms, including Google Firebase, Heroku, and AWS, ensuring high availability and scalability for the research project.
+
+    - title: Student Research Assistant
+      institution: University of Michigan, Ann Arbor, MI
       year: 1917-1933
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+      year: 2022
       description:
+        - Developed a full-stack search engine using Python3, HTML, CSS, and JavaScript for the student learning portal.
+        - Built a user-friendly interface for keyword searches within lecture recordings, with accurate timestamp results.
+        - Migrated the back-end from AWS Elastic Beanstalk to AWS Lambda function reduced the runtime significantly.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Girls Who Code Program Coordinator
+      institution: Girls in STEM Organization, China 
+      year: 2021 - 2022
+      description:
+        - Coordinated biweekly virtual seminars to inspire Chinese female high school students to pursue computer science.
+        - Directed and taught modules on Writing Scripts, Intro to HTML, and Ethical Concerns to introduce students to programming and computer science concepts.
 
-- title: Open Source Projects
+
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Social Media Platform	
+      year: 2022
+      description: 
+        - Developed a full-stack social media MERN web application that allows the CRUD pattern.
+        - Constructed RESTful APIs for handling HTTP requests with Node.js as the runtime, Express.js as the back-end web server, and MongoDB as the document store.
+        - Implemented front-end with Material-Ui, a React UI framework for faster and easier stylized web development.
+        - Utilized Redux Toolkit to manage application status and handle asynchronous redux actions.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Multi-Thread MapReduce Jobs Server
+      year: 2023
+      description:
+        - Developed a MapReduce command line tool to automate tasks for developers, with configurable input/output paths and execution files. 
+        - Implemented manager and worker classes for task distribution, progress monitoring, and fault tolerance. 
+        - Integrated inspection capabilities for command accuracy. 
+        - Utilized Python threading and socket libraries for efficient parallel computing and reliable communication, including TCP for data transmission and UDP for heartbeat monitoring.
 
-- title: Other Interests
-  type: list
+
+- title: Technical Skills
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Programming Language
+      value: Python, C++, HTML5/CSS, JavaScript, TypeScript, SQL, Shell Scripting
+    - name: Framework 
+      value: Bootstrap, Bulma, React.js, Node.js, Express.js
+    - name: Database
+      value: MySQL, SQLite, MongoDB
+    - name: CI/CD & Development Tools
+      value: Git, Docker, AWS, Postman, Firebase, Heroku
