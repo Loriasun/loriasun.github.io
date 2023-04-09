@@ -11,16 +11,16 @@
 - title: Education
   type: time_table
   contents:
-  - title: Master
+    - title: Master
       institution: UNIVERSITY OF Illinois Urbana Champaign, Urbana, IL 
       year: 2024
     - title: Bachelor's of Science
       institution: University of Michigan Ann Arbor, Ann Arbor, MI
       year: 2020-2023
       description:
-        - Major: Computer Science
-        - Minor: Mathemactics
-        - GPA: 3.8/4.0
+        - Major in Computer Science & minor in Mathemactics
+        - title: GPA
+          contents: 3.8/4.0
         - title: Related Course
           contents:
             - Web Design, Development and Accessibility, Database Management Systems, Introduction to Theoretical Statistics.
