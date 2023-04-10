@@ -3,10 +3,10 @@
   contents:
     - name: Full Name
       value: Loria Sun
-    - name: Date of Birth
-      value: 9th February 2001
+    # - name: Date of Birth
+    #   value: 9th February 2001
     - name: Languages
-      value: English, mandarin
+      value: English, Mandarin
 
 - title: Education
   type: time_table
@@ -18,7 +18,7 @@
       institution: University of Michigan Ann Arbor, Ann Arbor, MI
       year: 2020-2023
       description:
-        - Major in Computer Science & minor in Mathemactics
+        - Major in Computer Science & minor in Mathematics
         - title: GPA
           contents: 3.8/4.0
         - title: Related Course
@@ -80,6 +80,12 @@
         - Implemented manager and worker classes for task distribution, progress monitoring, and fault tolerance. 
         - Integrated inspection capabilities for command accuracy. 
         - Utilized Python threading and socket libraries for efficient parallel computing and reliable communication, including TCP for data transmission and UDP for heartbeat monitoring.
+
+    - title: Fakebook Oracle JDBC
+      year: Mar. 2022 - Apr. 2022
+      description:
+        - Formulated a relational database to store information for Fakebook, a fictional social media platform similar to Facebook, by writing SQL DDL statements to create data tables that reflect Fakebook specifications.
+        - Created a Java application that executes SQL queries against the relational database with specific query requirements and runtime constraints.
 
 
 - title: Technical Skills
