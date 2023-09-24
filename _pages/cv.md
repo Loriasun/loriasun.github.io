@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: Loria_Sun_Resume latest.pdf
+cv_pdf: Jiajie(Loria)_Sun_SDE_Intern_Resume.pdf
 ---
